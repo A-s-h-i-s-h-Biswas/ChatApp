@@ -10,7 +10,7 @@ app.use(cors());
 // Create Real Time Communication=>
 
 const socketIO=require("socket.io")(http,{
-    cors:{origin:"/"}
+    cors:{origin:"https://chat-app-iota-tan.vercel.app/"}
 });
 
 let users=[];
